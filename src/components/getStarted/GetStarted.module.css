@@ -1,0 +1,41 @@
+
+
+.title {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.formContainer {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 200px;
+    border-bottom: 8px solid #222;
+}
+
+.formLi {
+    list-style: none;
+}
+
+.input {
+    min-width:450px;
+    border: solid 1px #8c8c8c;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 54px !important;
+    padding: 0 15px;
+}
+
+.formButton {
+    border-left: 1px solid #333;
+    color: #fff;
+    background-color: #e50914;
+    background-image: linear-gradient(to bottom,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+    font-size: 1.625rem;
+    padding: 0.66rem 1em;
+}
