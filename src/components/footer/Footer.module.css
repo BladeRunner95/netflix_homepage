@@ -1,0 +1,124 @@
+
+.mainWrapper {
+    border-bottom: none;
+    /*padding-bottom: 0;*/
+    padding: 70px 45px;
+}
+
+.innerWrapper {
+    margin-top: 0;
+    min-width: 190px;
+    width: 100%;
+    /*margin-top: 80px;*/
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+
+.siteFooter {
+    padding-top: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.title {
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.titleLink {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footerLinks {
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.singleLink {
+    list-style: none;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+
+.singleLinkA {
+    color: #757575;
+    text-decoration: none;
+}
+
+
+
+
+
+.langSelection {
+    margin-top: 20px;
+}
+
+.langButtonInner {
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.label {
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    border: 0;
+}
+
+.labelSpan {
+
+}
+
+.selectArrow {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.selectArrow:after {
+    top: 22px;
+    color: #999;
+    right: 10px;
+    font-family: nf-icon;
+    font-size: 6px;
+    content: '\e898';
+    position: absolute;
+    pointer-events: none;
+}
+
+.select {
+    text-indent: 0;
+    padding-right: 26px;
+    padding-left: 50px;
+    line-height: 1.7;
+    background-color: #000;
+    background-image: none;
+    border: 1px
+    solid #333;
+    color: #999;
+    font-size: 16px;
+}
+
+.country {
+    font-size: 13px;
+    margin-top: 24px;
+}

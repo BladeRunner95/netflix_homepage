@@ -3,8 +3,9 @@ import Header from "./components/header/Header";
 import HeaderAndSectionBackground from "./components/hoc/HeaderAndSectionBackground";
 import Intro from "./components/intro/Intro";
 import GetStarted from "./components/getStarted/GetStarted";
-import TextAndImage from "./components/textAndImage/TextAndImage";
-import TextAndImageContent from "./components/hoc/TextAndImageContent";
+import TextAndImageContent from "./content/TextAndImageContent";
+import QuestionsContent from "./content/QuestionsContent";
+import Footer from "./components/footer/Footer";
 
 function App(props) {
   return (
@@ -15,6 +16,9 @@ function App(props) {
           <GetStarted/>
       </HeaderAndSectionBackground>
           <TextAndImageContent  {...props}/>
+          <QuestionsContent {...props}/>
+          <GetStarted smallPadding/>
+          <Footer/>
         </div>
   );
 }

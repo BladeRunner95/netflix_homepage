@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import styles from './Header.module.css';
 import logo from '../../assets/main_page/Netflix_logo.png';
 
