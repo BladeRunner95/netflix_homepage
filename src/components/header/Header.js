@@ -12,7 +12,7 @@ export default function Header() {
                 </div>
                 <div className={styles.languageSwitcher}>English</div>
                 <div className={styles.signInButton}>
-                    <a href="#" className={styles.a}>Sign In</a>
+                    <a href="https://www.netflix.com/il-en/login" className={styles.a}>Sign In</a>
                 </div>
             </div>
         </div>

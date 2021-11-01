@@ -6,10 +6,11 @@ import GetStarted from "./components/getStarted/GetStarted";
 import TextAndImageContent from "./content/TextAndImageContent";
 import QuestionsContent from "./content/QuestionsContent";
 import Footer from "./components/footer/Footer";
+import {BrowserRouter} from "react-router-dom";
 
 function App(props) {
   return (
-      <div id='main'>
+      <BrowserRouter id='main'>
       <HeaderAndSectionBackground>
     <Header/>
         <Intro/>
@@ -19,7 +20,7 @@ function App(props) {
           <QuestionsContent {...props}/>
           <GetStarted smallPadding/>
           <Footer/>
-        </div>
+        </BrowserRouter>
   );
 }
 

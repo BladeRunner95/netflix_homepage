@@ -73,8 +73,8 @@ export default function Footer () {
                         <a className={styles.titleLink} href="https://help.netflix.com/contactus">Questions? Contact us.</a>
                     </p>
                     <ul className={styles.footerLinks}>
-                        {footerLinks.map(link => {
-                            return <li className={styles.singleLink}>
+                        {footerLinks.map((link, index) => {
+                            return <li key={index} className={styles.singleLink}>
                                 <a className={styles.singleLinkA} href={link.link}>
                                  <span>{link.name}</span>
                                 </a>
@@ -87,7 +87,10 @@ export default function Footer () {
                                 <span className={styles.labelSpan}>Select Language</span>
                             </label>
                             <div className={styles.selectArrow}>
-                                <select className={styles.select} id="lang-switcher-select" placeholder="lang-switcher"></select>
+                                <select className={styles.select} id="lang-switcher-select" placeholder="lang-switcher">
+                                    <option value="/il-en">English</option>
+                                    <option value="/il-he">Hebrew</option>
+                                </select>
                             </div>
                         </div>
                     </div>

@@ -3,6 +3,8 @@
     border-bottom: none;
     /*padding-bottom: 0;*/
     padding: 70px 45px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .innerWrapper {
@@ -85,13 +87,27 @@
 }
 
 .labelSpan {
-
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c8c8c;
 }
 
 .selectArrow {
     position: relative;
     display: inline-block;
     width: 100%;
+}
+
+.selectArrow:before {
+    top: 17px;
+    color: #999;
+    content: '\e896';
+    font-family: nf-icon;
+    /*color: #000;*/
+    font-size: 16px;
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
 }
 
 .selectArrow:after {
@@ -106,9 +122,10 @@
 }
 
 .select {
+    padding: 15px 26px 15px 50px;
     text-indent: 0;
-    padding-right: 26px;
-    padding-left: 50px;
+    /*padding-right: 26px;*/
+    /*padding-left: 50px;*/
     line-height: 1.7;
     background-color: #000;
     background-image: none;
